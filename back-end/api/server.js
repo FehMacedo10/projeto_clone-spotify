@@ -24,6 +24,10 @@ app.get("/api/artists", async (request, response) => {
   response.send(await db.collection("artists").find({}).toArray());
 });
 
+app.get("/api/songs", async (request, response) => {
+  response.send(await db.collection("songs").find({}).toArray());
+});
+
 app.use(express.static(path.join(__dirname, "../front-end/dist")));
 
 app.get("*", async (request, response) => {
