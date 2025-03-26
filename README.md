@@ -134,7 +134,7 @@ npm run start
 
 4. Acesse o projeto:
 
-- O front-end estará disponível em `http://localhost:3000``
+- O front-end estará disponível em `http://localhost:3000`
 - O back-end estará disponível em `http://localhost:3001`
 
 ---
